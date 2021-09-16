@@ -1,5 +1,6 @@
 import { Route, Switch } from 'react-router';
-import AboutMe from './AboutMe';
+import Blogs from './Blogs';
+
 import Education from './Education';
 import PersonalInformation from './PersonalInformation';
 import Projects from './Projects';
@@ -10,9 +11,6 @@ const Main = () => {
     <div className='glass-main flex-70'>
       <Switch>
         <Route exact path='/'>
-          <AboutMe />
-        </Route>
-        <Route exact path='/personal'>
           <PersonalInformation />
         </Route>
         <Route exact path='/education'>
@@ -23,6 +21,10 @@ const Main = () => {
         </Route>
         <Route exact path='/projects'>
           <Projects />
+        </Route>
+
+        <Route exact path='/blogs'>
+          <Blogs />
         </Route>
       </Switch>
     </div>

@@ -39,7 +39,7 @@ const Dashboard = (props) => {
       </nav>
 
       <a href='www.google.com' className='button btn-primary upper'>
-        <i class='fas fa-cloud-download-alt'></i> Resume
+        <i className='fas fa-cloud-download-alt'></i> Resume
       </a>
     </div>
   );

@@ -7,9 +7,8 @@ const Dashboard = (props) => {
         <div className='user-img font-0 text-center '>
           <img src='./onkar.jpg' alt='user-img-01' />
         </div>
-        <NavLink to='/'>
-          <h1 className='user-name'>Onkar Shingate</h1>
-        </NavLink>
+
+        <h1 className='user-name'>Onkar Shingate</h1>
 
         <h3>Solapur</h3>
         <h3>Maharashtra</h3>
@@ -17,7 +16,7 @@ const Dashboard = (props) => {
 
       <nav className='navbar'>
         <ul className='main-menu'>
-          <NavLink to='/personal' className='capitalize'>
+          <NavLink to='/' className='capitalize'>
             <li className='sub-menu'>Personal details</li>
           </NavLink>
 
@@ -32,11 +31,15 @@ const Dashboard = (props) => {
           <NavLink to='/projects' className='capitalize'>
             <li className='sub-menu'>Personal Projects</li>
           </NavLink>
+
+          <NavLink to='/blogs' className='capitalize'>
+            <li className='sub-menu'>Blogs</li>
+          </NavLink>
         </ul>
       </nav>
 
-      <a href='#' className='button btn-primary upper'>
-        Download Resume
+      <a href='www.google.com' className='button btn-primary upper'>
+        <i class='fas fa-cloud-download-alt'></i> Resume
       </a>
     </div>
   );

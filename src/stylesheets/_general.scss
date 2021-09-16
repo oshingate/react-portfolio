@@ -1,0 +1,71 @@
+/* general css */
+
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  --pri: #233b67;
+  --sec: #62e993;
+  --ter: #456fe6;
+  --text-white: #fff;
+  --btn-bg: blue;
+}
+
+body {
+  line-height: 1.5;
+  font-size: 20px;
+  color: var(--text-white);
+  font-family: 'Nunito', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+.padding {
+  padding: 4rem 0;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+.upper {
+  text-transform: uppercase;
+}
+.text-center {
+  text-align: center;
+}
+
+.width-full {
+  width: 100%;
+}
+
+.font-0 {
+  font-size: 0;
+}
+
+.button {
+  color: #22577a;
+  font-weight: 600;
+  background-color: #57cc99;
+  border-radius: 0.5rem;
+}
+
+.button:hover {
+  opacity: 0.5;
+}
+.btn-primary {
+  margin: 0.5rem 0;
+  padding: 0.5rem 0;
+  border-radius: 0.5rem;
+  display: block;
+}
+
+.btn-secondary {
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  outline: 0;
+  border: 0;
+  font-size: 1.2rem;
+  margin: 1rem 0;
+  cursor: pointer;
+}

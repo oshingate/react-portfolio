@@ -238,6 +238,50 @@ const data = {
       postedOn: 'medium.com',
     },
   ],
+  projects: [
+    {
+      title: 'Blog App',
+      image: 'abc',
+      url: 'https://oshingate-blog-app.netlify.app',
+      TechStack: ['ReactJS', 'ExpressJS', 'MongoDB'],
+    },
+    {
+      title: 'Shopify Clone',
+      image: 'abc',
+      url: 'https://oshingate-shoopifai.netlify.app',
+      TechStack: ['ReactJS', 'ExpressJS', 'MongoDB', 'Bulma CSS'],
+    },
+    {
+      title: 'E-Commerse Site',
+      image: 'abc',
+      url: 'https://oshingate-shopping-site.netlify.app',
+      TechStack: ['ReactJS', 'HTML', 'SCSS'],
+    },
+    {
+      title: 'Activity Tracker',
+      image: 'abc',
+      url: 'https://oshingate-activity-trackers.netlify.app',
+      TechStack: ['ReactJS', 'HTML', 'SCSS'],
+    },
+    {
+      title: 'Live Code Editor',
+      image: 'abc',
+      url: 'https://oshingate-live-code-editor.netlify.app',
+      TechStack: ['ReactJS', 'HTML', 'SCSS'],
+    },
+    {
+      title: 'Quiz App',
+      image: 'abc',
+      url: 'https://oshingate-quiz-app.netlify.app',
+      TechStack: ['ReactJS', 'HTML', 'SCSS'],
+    },
+    {
+      title: 'Github Battle',
+      image: 'abc',
+      url: 'https://oshingate-github-battle.netlify.app',
+      TechStack: ['ReactJS', 'HTML', 'SCSS'],
+    },
+  ],
 };
 
 export default data;

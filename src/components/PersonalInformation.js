@@ -26,7 +26,7 @@ const PersonalInformation = () => {
           Context-API, HOC's, Redux, Hooks.
         </p>
         <p className='mb-3'>
-          Completed many fullfledged Personal Projects using ExpressJS and
+          Completed many full fledged Personal Projects using ExpressJS and
           React.You can check my projects by clicking Projects link.
         </p>
 

@@ -3,7 +3,7 @@ import Basic from './techStack/Basic';
 
 const TechStack = () => {
   let { basic, frontEnd, backEnd, buildTools, other } = data.techStack[0];
-  console.log(data.techStack[0]);
+
   return (
     <>
       <h2>Tech-Stack</h2>

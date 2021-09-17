@@ -11,7 +11,7 @@ const Blogs = () => {
         {blogPosts.map((blog) => {
           return (
             <article
-              className='card blog-card flex-48 flex-col justify-between'
+              className='media-flex-48 card blog-card flex-48 flex-col justify-between'
               key={blog.title}
             >
               <div className='posted-on'>

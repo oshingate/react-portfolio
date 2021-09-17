@@ -1,5 +1,6 @@
 import Dashboard from './Dashboard';
 import Main from './Main';
+import MobileHeader from './MobileHeader';
 
 const LandingPage = (props) => {
   return (
@@ -7,6 +8,7 @@ const LandingPage = (props) => {
       {' '}
       <section>
         <div className='glass-temp flex jcc aic'>
+          <MobileHeader />
           <div className='glass flex'>
             <Dashboard />
 

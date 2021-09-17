@@ -50,23 +50,73 @@ const MobileHeader = () => {
             </div>
             <nav className='navs'>
               <ul className='main-menu'>
-                <NavLink to='/' className='capitalize'>
+                <NavLink
+                  to='/'
+                  className='capitalize'
+                  onClick={() => {
+                    setHide((prevState) => {
+                      let glass = document.querySelector('.glass');
+                      glass.classList.remove('media-hide');
+                      return !prevState;
+                    });
+                  }}
+                >
                   <li className='sub-menu'>Personal details</li>
                 </NavLink>
 
-                <NavLink to='/education' className='capitalize'>
+                <NavLink
+                  to='/education'
+                  className='capitalize'
+                  onClick={() => {
+                    setHide((prevState) => {
+                      let glass = document.querySelector('.glass');
+                      glass.classList.remove('media-hide');
+                      return !prevState;
+                    });
+                  }}
+                >
                   <li className='sub-menu'>Education</li>
                 </NavLink>
 
-                <NavLink to='/tech' className='capitalize'>
+                <NavLink
+                  to='/tech'
+                  className='capitalize'
+                  onClick={() => {
+                    setHide((prevState) => {
+                      let glass = document.querySelector('.glass');
+                      glass.classList.remove('media-hide');
+                      return !prevState;
+                    });
+                  }}
+                >
                   <li className='sub-menu'>Tech-Stack</li>
                 </NavLink>
 
-                <NavLink to='/projects' className='capitalize'>
+                <NavLink
+                  to='/projects'
+                  className='capitalize'
+                  onClick={() => {
+                    setHide((prevState) => {
+                      let glass = document.querySelector('.glass');
+                      glass.classList.remove('media-hide');
+                      return !prevState;
+                    });
+                  }}
+                >
                   <li className='sub-menu'>Personal Projects</li>
                 </NavLink>
 
-                <NavLink to='/blogs' className='capitalize'>
+                <NavLink
+                  to='/blogs'
+                  className='capitalize'
+                  onClick={() => {
+                    setHide((prevState) => {
+                      let glass = document.querySelector('.glass');
+                      glass.classList.remove('media-hide');
+                      return !prevState;
+                    });
+                  }}
+                >
                   <li className='sub-menu'>Blogs</li>
                 </NavLink>
               </ul>

@@ -121,6 +121,22 @@ const MobileHeader = () => {
                 </NavLink>
               </ul>
             </nav>
+
+            <a
+              href='./resume.pdf'
+              target='_blank'
+              rel='noreferrer'
+              className='button btn-primary upper media-resume'
+              onClick={() => {
+                setHide((prevState) => {
+                  let glass = document.querySelector('.glass');
+                  glass.classList.remove('media-hide');
+                  return !prevState;
+                });
+              }}
+            >
+              <i className='fas fa-cloud-download-alt'></i> <span>Resume</span>
+            </a>
           </div>
         ) : (
           ''

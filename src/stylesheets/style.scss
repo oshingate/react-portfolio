@@ -208,11 +208,16 @@ $sec: #63b4b8;
   a {
     margin-top: 0.5rem;
     font-size: 1rem;
+    font-weight: 700;
     width: fit-content;
     color: $pri;
     background-color: rgba(255, 255, 255, 0.301);
     padding: 0.25rem 0.5rem;
     border-radius: 12px;
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.692);
+      color: black;
+    }
   }
 }
 

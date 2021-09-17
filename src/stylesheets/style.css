@@ -617,6 +617,7 @@ p {
 .blog-card a {
   margin-top: 0.5rem;
   font-size: 1rem;
+  font-weight: 700;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -624,6 +625,11 @@ p {
   background-color: rgba(255, 255, 255, 0.301);
   padding: 0.25rem 0.5rem;
   border-radius: 12px;
+}
+
+.blog-card a:hover {
+  background-color: rgba(255, 255, 255, 0.692);
+  color: black;
 }
 
 /* Media */

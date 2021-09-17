@@ -41,6 +41,16 @@ $sec: #63b4b8;
 
   border-radius: 2rem;
   padding: 0.5rem;
+  .dashboard-nav {
+    a {
+      margin: 0.5rem;
+      color: $pri;
+      font-size: 1.2rem;
+      &:hover {
+        color: $sec;
+      }
+    }
+  }
 }
 
 .user-img {
@@ -121,6 +131,88 @@ $sec: #63b4b8;
       text-decoration: underline;
       cursor: pointer;
     }
+  }
+}
+
+//skills card
+
+.skills-card {
+  padding: 0.7rem;
+  background-color: rgba(245, 245, 245, 0.151);
+  overflow: hidden;
+  transition-duration: 1s;
+  transition-property: transform;
+  &:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    .skills-card__name {
+      color: $sec;
+    }
+  }
+
+  .skills-card__img-div {
+    height: 4rem;
+    max-width: 4rem;
+    margin: 0 auto;
+    margin-bottom: 0.5rem;
+    overflow: hidden;
+    transition-duration: 1s;
+    transition-property: transform;
+
+    &:hover {
+      transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+    }
+
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+  .skills-card__name-div {
+    text-align: center;
+  }
+  .skills-card__name {
+    font-size: 1rem;
+    font-weight: 700;
+    color: $pri;
+  }
+}
+
+//blog card
+
+.blog-card {
+  position: relative;
+  overflow: hidden;
+  .posted-on {
+    position: absolute;
+    top: 30px;
+    right: -50px;
+    transform: rotate(45deg);
+    padding: 0.2rem 3rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: $pri;
+    font-size: 0.8rem;
+  }
+  .blog-card__img-div {
+    height: 8rem;
+    max-width: 95%;
+    margin: 0 auto;
+    margin-bottom: 0.5rem;
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  a {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    width: fit-content;
+    color: $pri;
+    background-color: rgba(255, 255, 255, 0.301);
+    padding: 0.25rem 0.5rem;
+    border-radius: 12px;
   }
 }
 

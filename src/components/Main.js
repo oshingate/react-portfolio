@@ -8,7 +8,7 @@ import TechStack from './TechStack';
 
 const Main = () => {
   return (
-    <div className='glass-main flex-70'>
+    <div className='media-flex-70 glass-main flex-70'>
       <Switch>
         <Route exact path='/'>
           <PersonalInformation />

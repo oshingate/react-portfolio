@@ -27,9 +27,12 @@ const Blogs = () => {
                 <p className='blog-card__desc'>{blog.desc}</p>
               </div>
 
-              <a href={blog.url} target='_blank' rel='noreferrer'>
-                Read More
-              </a>
+              <div>
+                <hr />
+                <a href={blog.url} target='_blank' rel='noreferrer'>
+                  Read More
+                </a>
+              </div>
             </article>
           );
         })}

@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom';
 
 const Dashboard = (props) => {
   return (
-    <div className='media-flex-30 media-flex-row dashboard flex-30 text-center flex flex-col justify-between'>
+    <div className='media-hide  dashboard flex-30 text-center flex flex-col justify-between'>
       <div className=''>
         <div className='user-img font-0 text-center '>
           <img src='./onkar.jpg' alt='user-img-01' />

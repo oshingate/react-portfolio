@@ -208,7 +208,7 @@ h3 {
 
 p {
   font-size: 1.1rem;
-  color: #81b49e;
+  color: #b4f3d8;
 }
 
 .w-60 {
@@ -289,6 +289,12 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.justify-end {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 .flex-48 {
@@ -598,13 +604,86 @@ p {
   color: chocolate;
 }
 
+header {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 96%;
+  overflow: hidden;
+  padding: 0.25rem 0.5rem;
+  background-color: rgba(255, 255, 255, 0.052);
+}
+
+header strong {
+  font-size: 1rem;
+  font-weight: 800;
+  letter-spacing: 1.1;
+  color: #a9e4d7;
+  line-height: 1;
+}
+
+header strong span {
+  font-size: 0.5rem;
+  color: #63b4b8;
+  text-align: center;
+  margin-left: 2rem;
+}
+
+header i {
+  font-size: 1.5rem;
+  color: #a9e4d7;
+}
+
+header .img-div {
+  height: 2rem;
+  width: 2rem;
+  margin-right: 0.5rem;
+}
+
+header .img-div img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+header .header-navs {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  background-color: rgba(29, 26, 26, 0.253);
+}
+
+header .header-navs .navs {
+  margin-top: 3rem;
+}
+
+header .header-navs .sub-menu {
+  max-width: 80%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
 /* Media */
 @media all and (max-width: 420px) {
   body {
     font-size: 10px;
+    z-index: 0;
+  }
+  .glass {
+    z-index: 0;
   }
   .media-hide {
     display: none;
+  }
+  .media-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   .media-flex-row {
     -webkit-box-orient: horizontal;
@@ -617,10 +696,24 @@ p {
         -ms-flex: 0 1 100%;
             flex: 0 1 100%;
   }
+  .media-flex-48 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 100%;
+            flex: 0 1 100%;
+    margin-bottom: 0.7rem;
+  }
+  .media-felx-half {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 22%;
+            flex: 0 1 22%;
+  }
   .media-flex-70 {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 100%;
             flex: 0 1 100%;
+  }
+  header {
+    display: inline-block;
   }
 }
 /*# sourceMappingURL=style.css.map */

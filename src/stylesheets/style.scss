@@ -104,7 +104,7 @@ $sec: #63b4b8;
   text-decoration: underline;
 }
 
-//education
+//education card
 
 .education-card {
   .education-card__title {
@@ -242,14 +242,76 @@ $sec: #63b4b8;
     }
   }
 }
+header {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 96%;
+  overflow: hidden;
+  padding: 0.25rem 0.5rem;
 
+  background-color: rgba(255, 255, 255, 0.052);
+  strong {
+    font-size: 1rem;
+    font-weight: 800;
+    letter-spacing: 1.1;
+    color: $pri;
+    line-height: 1;
+    span {
+      font-size: 0.5rem;
+      color: $sec;
+      text-align: center;
+      margin-left: 2rem;
+    }
+  }
+  i {
+    font-size: 1.5rem;
+    color: $pri;
+  }
+  .img-div {
+    height: 2rem;
+    width: 2rem;
+    margin-right: 0.5rem;
+    img {
+      height: 100%;
+      width: 100%;
+      border-radius: 50%;
+    }
+  }
+  .header-navs {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background-color: rgba(29, 26, 26, 0.253);
+    .navs {
+      margin-top: 3rem;
+    }
+    .sub-menu {
+      max-width: 80%;
+      margin: 0 auto;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+  }
+}
 /* Media */
 @media all and (max-width: 420px) {
   body {
     font-size: 10px;
+    z-index: 0;
+  }
+  .glass {
+    z-index: 0;
   }
   .media-hide {
     display: none;
+  }
+  .media-flex {
+    display: flex;
   }
   .media-flex-row {
     flex-direction: row;
@@ -260,7 +322,17 @@ $sec: #63b4b8;
   .media-flex-30 {
     flex: 0 1 100%;
   }
+  .media-flex-48 {
+    flex: 0 1 100%;
+    margin-bottom: 0.7rem;
+  }
+  .media-felx-half {
+    flex: 0 1 22%;
+  }
   .media-flex-70 {
     flex: 0 1 100%;
+  }
+  header {
+    display: inline-block;
   }
 }

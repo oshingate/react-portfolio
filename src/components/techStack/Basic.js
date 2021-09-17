@@ -6,7 +6,10 @@ const Basic = (props) => {
       <div className='flex wrap '>
         {props.data.map((skill) => {
           return (
-            <article className='card skills-card flex-20 ' key={skill.name}>
+            <article
+              className='media-felx-half card skills-card flex-20 '
+              key={skill.name}
+            >
               <div className='skills-card__img-div '>
                 <img src={skill.image} alt='skill' />
               </div>

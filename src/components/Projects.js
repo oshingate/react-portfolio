@@ -10,7 +10,7 @@ const Projects = () => {
         {projects.map((project) => {
           return (
             <article
-              className='card blog-card project-card flex-48 flex-col justify-between'
+              className='media-flex-48 card blog-card project-card flex-48 flex-col justify-between'
               key={project.title}
             >
               <div className='posted-on'>

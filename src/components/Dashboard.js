@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom';
 
 const Dashboard = (props) => {
   return (
-    <div className='dashboard flex-30 text-center flex flex-col justify-between'>
+    <div className='media-flex-30 media-flex-row dashboard flex-30 text-center flex flex-col justify-between'>
       <div className=''>
         <div className='user-img font-0 text-center '>
           <img src='./onkar.jpg' alt='user-img-01' />
@@ -78,7 +78,12 @@ const Dashboard = (props) => {
         </ul>
       </nav>
 
-      <a href='www.google.com' className='button btn-primary upper'>
+      <a
+        href='./resume.pdf'
+        target='_blank'
+        rel='noreferrer'
+        className='button btn-primary upper'
+      >
         <i className='fas fa-cloud-download-alt'></i> Resume
       </a>
     </div>

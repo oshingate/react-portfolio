@@ -11,34 +11,17 @@ const Dashboard = (props) => {
 
         <h1 className='user-name'>Onkar Shingate</h1>
 
-        <h3>Solapur</h3>
+        <h3>Pune, Maharashtra</h3>
         <nav className='flex jcc aic'>
           <ul className='flex dashboard-nav'>
             <li>
               <a
-                href='https://twitter.com/onkarshingate2'
+                href='https://github.com/oshingate'
                 target='_blank'
                 rel='noreferrer'
               >
-                <i className='fab fa-twitter'></i>
-              </a>
-            </li>
-            <li>
-              <a
-                href='https://www.facebook.com/oshingate'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <i className='fab fa-facebook'></i>
-              </a>
-            </li>
-            <li>
-              <a
-                href='https://oshingate.medium.com/'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <i className='fab fa-medium'></i>
+                {' '}
+                <i class='fab fa-github'></i>
               </a>
             </li>
             <li>
@@ -49,6 +32,25 @@ const Dashboard = (props) => {
               >
                 {' '}
                 <i className='fab fa-linkedin'></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href='https://twitter.com/onkarshingate2'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <i className='fab fa-twitter'></i>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href='https://oshingate.medium.com/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <i className='fab fa-medium'></i>
               </a>
             </li>
           </ul>

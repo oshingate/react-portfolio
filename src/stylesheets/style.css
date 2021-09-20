@@ -208,7 +208,7 @@ h3 {
 
 p {
   font-size: 1.1rem;
-  color: #b4f3d8;
+  color: #cce6da;
 }
 
 .w-60 {
@@ -391,6 +391,10 @@ p {
   color: #63b4b8;
 }
 
+.header-active-nav .sub-menu {
+  color: #e9cab5;
+}
+
 .user-img {
   margin-bottom: 0.8rem;
 }
@@ -406,7 +410,7 @@ p {
 .user-name {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #a9e4d7;
+  color: chocolate;
 }
 
 .dashboard h3 {
@@ -415,7 +419,7 @@ p {
   color: #63b4b8;
 }
 
-.main-menu .sub-menu {
+.sub-menu {
   margin: 0.7rem 0;
   padding: 0.5rem 0;
   border-radius: 0.5rem;

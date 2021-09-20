@@ -16,9 +16,8 @@ const PersonalInformation = () => {
           First I did JavaScript Course on FreeCodeCamp.org website. Later on I
           learned about DOM manipulation using JS. Did some practice to improve
           my HTML and CSS skills. For Database I learned many commands in
-          MongoDB. Later when I started learning NodeJS/ExpressJS for backend at
-          that time I learned about how to write APIs and how to connect to
-          Database.
+          MongoDB. Later I started learning NodeJS/ExpressJS for backend at that
+          time I learned about how to write APIs and how to connect to Database.
         </p>
         <p className='mb-3'>
           For Frontend I learned React. I personally found react more useful
@@ -26,7 +25,7 @@ const PersonalInformation = () => {
           Context-API, HOC's, Redux, Hooks.
         </p>
         <p className='mb-3'>
-          Completed many fullflesh Personal Projects using ExpressJS and
+          Completed many full fledged Personal Projects using ExpressJS and
           React.You can check my projects by clicking Projects link.
         </p>
 

@@ -52,6 +52,11 @@ $sec: #63b4b8;
     }
   }
 }
+.header-active-nav {
+  .sub-menu {
+    color: rgb(233, 202, 181);
+  }
+}
 
 .user-img {
   margin-bottom: 0.8rem;
@@ -66,14 +71,15 @@ $sec: #63b4b8;
 .user-name {
   font-size: 1.5rem;
   font-weight: 700;
-  color: $pri;
+  // color: $pri;
+  color: chocolate;
 }
 .dashboard h3 {
   font-size: 0.8rem;
   font-weight: 900;
   color: $sec;
 }
-.main-menu .sub-menu {
+.sub-menu {
   margin: 0.7rem 0;
   padding: 0.5rem 0;
   border-radius: 0.5rem;

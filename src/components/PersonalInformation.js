@@ -5,11 +5,11 @@ const PersonalInformation = () => {
 
       <div>
         <h3 className='mb-5 about-heading'>
-          Hello, my name is Onkar Balasaheb Shingate. I'm MERN Stack Developer.
+          Hello, my name is Onkar Shingate. I'm MERN Stack Developer.
         </h3>
         <p className='mb-3'>
           I started my coding career about 2 years ago. In the start I learned
-          about Java and Angular 6, but later on I found JavaScript more
+          about Java and Angular 6, but later  I found JavaScript more
           intresting than Java so switched to JavaScript.{' '}
         </p>
         <p className='mb-3 '>

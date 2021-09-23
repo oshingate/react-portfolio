@@ -261,6 +261,13 @@ const data = {
       hostedOn: 'On Netlify',
     },
     {
+      title: 'Counter App With Redux',
+      image: 'https://www.loom.com/embed/1dd7413dad03409f89fd9eace1c6f1b1',
+      url: 'https://oshingate-counter-with-redux.netlify.app/',
+      TechStack: ['ReactJS', 'Redux', 'HTML', 'SCSS'],
+      hostedOn: 'On Netlify',
+    },
+    {
       title: 'Activity Tracker',
       image: 'https://www.loom.com/embed/36c16238377f4e65ba64e801bb39436e',
       url: 'https://oshingate-activity-trackers.netlify.app',
@@ -273,6 +280,13 @@ const data = {
       url: 'https://oshingate-live-code-editor.netlify.app',
       TechStack: ['ReactJS', 'HTML', 'SCSS'],
       hostedOn: 'On Netlify',
+    },
+    {
+      title: 'Event Manager',
+      image: 'https://www.loom.com/embed/268dbc269d4244cd8325945d5b534dbb',
+      url: 'https://oshingate-event-manager.herokuapp.com/',
+      TechStack: ['ExpressJS', 'EJS', 'SCSS'],
+      hostedOn: 'On Heroku',
     },
     {
       title: 'Quiz App',

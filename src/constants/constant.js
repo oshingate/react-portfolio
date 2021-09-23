@@ -289,6 +289,13 @@ const data = {
       hostedOn: 'On Heroku',
     },
     {
+      title: 'Podcast App',
+      image: 'https://www.loom.com/embed/0e1249261b294408bfb2e93dd33cdc96',
+      url: 'https://oshingate-event-manager.herokuapp.com/',
+      TechStack: ['ExpressJS', 'EJS', 'SCSS'],
+      hostedOn: 'On Heroku',
+    },
+    {
       title: 'Quiz App',
       image: 'https://www.loom.com/embed/cf56a2577cef4940954abb3cb66371bb',
       url: 'https://oshingate-quiz-app.netlify.app',

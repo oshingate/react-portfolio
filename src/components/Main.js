@@ -5,6 +5,7 @@ import Education from './Education';
 import PersonalInformation from './PersonalInformation';
 import Projects from './Projects';
 import TechStack from './TechStack';
+import Experience from './Experience';
 
 const Main = () => {
   return (
@@ -12,6 +13,9 @@ const Main = () => {
       <Switch>
         <Route exact path='/'>
           <PersonalInformation />
+        </Route>
+         <Route exact path='/experience'>
+          <Experience />
         </Route>
         <Route exact path='/education'>
           <Education />

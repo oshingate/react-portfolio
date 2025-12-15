@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import './reset';
-@import './general';
-@import './flex';
-@import './about';
-@import './education';
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import "./reset";
+@import "./general";
+@import "./flex";
+@import "./about";
+@import "./education";
 
 /* custome css */
 
@@ -12,7 +12,7 @@ $sec: #63b4b8;
 
 //
 .glass-temp {
-  background-image: url('https://images.unsplash.com/photo-1439792675105-701e6a4ab6f0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80');
+  background-image: url("https://images.unsplash.com/photo-1439792675105-701e6a4ab6f0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80");
   background-position: center;
   height: 100vh;
   position: relative;
@@ -138,6 +138,11 @@ $sec: #63b4b8;
       text-decoration: underline;
       cursor: pointer;
     }
+  }
+  .work-card__stack {
+    display: block;
+    font-size: 0.5rem;
+    color: $sec;
   }
 }
 
